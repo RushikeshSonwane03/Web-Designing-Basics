@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <!-- HTML Form -->
+    <!-- action - Target After clicking Submit. -->
+    <!-- method - GET/POST -->
+    <!-- The <form> element is a container for different types of input elements, such as: 
+        text fields, checkboxes, radio buttons, submit buttons, etc. -->
+    
+        <!-- The HTML <form> element can contain one or more of the following form elements:
+            <input>, <label>, <select>, <textarea>, <button>, <fieldset>, <legend>, <datalist>, 
+                <output>, <option>, <optgroup> -->
+        
+
+        <!-- Input tag has following attributes -->
+        <!-- <input type="text"> - Displays a single-line text input field
+            <input type="email"> - Displays a input field to enter email
+            <input type="password"> - Displays a input field to enter a password
+            <input type="file"> - Displays a input field for uploading a  file
+            <input type="radio"> - Displays a radio button (for selecting one of many choices)
+            <input type="checkbox"> - Displays a checkbox (for selecting zero or more of many choices)
+            <input type="submit"> - Displays a submit button (for submitting the form)
+            <input type="reset"> - Displays a reset button (for reset the form)
+            <input type="button"> - Displays a clickable button -->
+
+        <!-- <textarea rows="_" cols="_"> </textarea> - For multi-line text input -->
+        <!-- <select id="_" name="_">
+                <option value="_"></option> 
+            </select> - Select an option from a drop down list. (multiple - Attribute allows multiple selection.)-->
+        
+
+    <form action="" method="">
+        <input type="text" placeholder="Enter your name">
+        <input type="email" placeholder="Enter your Email Id">
+        <input type="number" placeholder="Enter your Number">
+        <input type="checkbox">
+        <input type="radio">
+        <input type="file">
+        <textarea rows="10" cols="10"></textarea>
+        <select name="location" id="location">
+            <option value="Dhule">Dhule</option>
+            <option value="Pune">Pune</option>
+            <option value="Mumbai">Mumbai</option>
+        </select>
+        <select name="location" id="location" multiple>
+            <option value="Dhule">Dhule</option>
+            <option value="Pune">Pune</option>
+            <option value="Mumbai">Mumbai</option>
+        </select>
+        <input type="password" placeholder="Password goes here">
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</body>
+
+</html>
