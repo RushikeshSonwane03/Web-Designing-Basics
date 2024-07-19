@@ -14,11 +14,11 @@ We welcome contributions from the community! Follow these steps to collaborate:
 1. **Fork the Repository**: Click the "Fork" button at the top right of this page.
 2. **Clone Your Fork**: Clone your forked repository to your local machine.
    ```sh
-   git clone https://github.com/RushikeshSonwane03/IOT_Project.git
+   git clone https://github.com/RushikeshSonwane03/Web-Designing-Basics.git
    ```
 3. **Create a Branch**: Create a new branch for your feature or bug fix
     ```sh 
-    git checkout -b feature-name
+    git checkout -b colab
     ```
 4. **Make Changes**: Implement your changes and commit them with clear messages.
     ```sh
@@ -26,7 +26,7 @@ We welcome contributions from the community! Follow these steps to collaborate:
     ```
 5. **Push Changes**: Push your changes to your forked repository.
     ```sh
-    git push origin feature-name
+    git push origin colab-name
     ```
 6. **Create a Pull Request**: Open a pull request from your forked repository to our main repository.
 
