@@ -1,7 +1,7 @@
 # Web Designing
 ---
 
-| [HTML](./HTML/HTML.md) | CSS | JavaScript |
+| HTML [link](./HTML/HTML.md) | CSS [link](./CSS/CSS.md) | JavaScript [link](./JavaScript/JavaScript.md) |
 | ---------------------- | ----- | -------------- |
 
 
